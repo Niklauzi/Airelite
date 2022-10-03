@@ -1,0 +1,23 @@
+{
+  "name": "airelite",
+  "version": "1.0.0",
+  "description": "Task Manager",
+  
+  "scripts": {
+    "start": "parcel Aire.html",
+    "build": "parcel build Aire.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Niklauzi/Airelite.git"
+  },
+  "author": "Kpokpe Favour (Niklaus)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Niklauzi/Airelite/issues"
+  },
+  "homepage": "https://github.com/Niklauzi/Airelite#readme",
+  "dependencies": {
+    "parcel": "^2.7.0"
+  }
+}
