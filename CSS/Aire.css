@@ -129,10 +129,12 @@ footer, .focol{
     background: green;
 }
 
-.fun_btn .del{
+/* .fun_btn .del{
     background: brown;
+} */
+.table tbody tr td .btn .dbtn{
+    background: green;
 }
-
 
 .logout_btn{
     width: 5rem;
