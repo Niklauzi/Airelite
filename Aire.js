@@ -11,6 +11,9 @@ const rowEl = `<tr>
 <td  data-label="Rewards"> 100 PTS</td>
 <td data-label="#"  class="d-flex justify-content-center"> <button  class="btn" data-bs-toggle="modal" data-bs-target="#enroll"> Submit </button></td>
 <td  data-label="Status"  class=" justify-content-center">Pending</td>
+ <td>
+  <button class="btn del dbtn">DELETE</button>
+ </td>
 </tr>`;
 const array = [];
 
@@ -19,18 +22,18 @@ tbody.insertAdjacentHTML('afterbegin', rowEl);
 array.push(tbody);
 condiv.appendChild(tbody);
 
-console.log("book");
+console.log(button);
 console.log(array);
 
 });
 
 delbtn.addEventListener('click', function(){
     const index = array.indexOf(condiv);
-// if (index > -1) {
+if (index > -1) {
   array.splice(index, 1);
-// condiv.removeChild(tbody);
+condiv.removeChild(tbody);
 
-// }
+}
 
 console.log("bookie");
 console.log(array);

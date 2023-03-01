@@ -82,7 +82,7 @@ footer, .focol{
     vertical-align: top;
     text-align: center;
     border: 1px solid #dee2e685;
-   
+
 
 }
 
@@ -132,8 +132,8 @@ footer, .focol{
 /* .fun_btn .del{
     background: brown;
 } */
-.table tbody tr td .btn .dbtn{
-    background: green;
+.table tbody tr td .dbtn{
+    background: blue;
 }
 
 .logout_btn{
